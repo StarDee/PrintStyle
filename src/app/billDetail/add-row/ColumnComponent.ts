@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import {RowStyle} from "./domain/RowStyle";
+import {RowStyle} from "../domain/RowStyle";
 
 @Component({
   selector: "exe-Other",

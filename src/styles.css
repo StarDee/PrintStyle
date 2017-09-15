@@ -36,3 +36,58 @@ ul li{
   margin:auto 0;
   border-bottom: dotted 1px #9aa5a5;
 }
+.bbl-blank-row {
+  position: relative;
+  height: 80px;
+  width: 80%;
+  margin: 5px auto;
+  border: dotted 2px #c65112;
+  border-radius: 5% 5%;
+}
+.bbl-add-btn {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 35%;
+  background-color: #336699;
+}
+.bbl-height-btn {
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  width: 20px;
+  height: 40%;
+  border-radius: 3px 4px;
+  background-color: #336699;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+.bbl-del-row {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -10px;
+  top: -10px;
+  border-radius: 50%;
+  background-color: #336699;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

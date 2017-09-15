@@ -4,9 +4,9 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {BillMenuComponent} from "./billMenu/bill-menu.component"
 import {BillDetailComponent} from "./billDetail/bill-detail.component"
-import {NormalRowComponent} from "./billDetail/NormalRowComponent";
-import {BlankRowComponent} from "./billDetail/BlankRowComponent";
-import {ColumnComponent} from "./billDetail/ColumnComponent";
+import {NormalRowComponent} from "./billDetail/add-row/NormalRowComponent";
+import {BlankRowComponent} from "./billDetail/add-row/BlankRowComponent";
+import {ColumnComponent} from "./billDetail/add-row/ColumnComponent";
 
 
 @NgModule({

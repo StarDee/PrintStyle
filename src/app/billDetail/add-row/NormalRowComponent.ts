@@ -1,8 +1,8 @@
 ﻿import {
   Component, Input, Output, EventEmitter, ComponentFactoryResolver, ViewChild, ViewContainerRef
 } from '@angular/core';
-import {RowStyle} from "./domain/RowStyle";
-import {ColumnStyle} from "./domain/ColumnStyle";
+import {RowStyle} from "../domain/RowStyle";
+import {ColumnStyle} from "../domain/ColumnStyle";
 import {ColumnComponent} from "./ColumnComponent";
 
 @Component({

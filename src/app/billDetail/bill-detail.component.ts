@@ -2,8 +2,8 @@ import {
   Component, ViewChild, ViewContainerRef, ComponentFactory,
   ComponentRef, ComponentFactoryResolver, OnDestroy
 } from '@angular/core';
-import {BlankRowComponent} from "./BlankRowComponent";
-import {NormalRowComponent} from "./NormalRowComponent";
+import {BlankRowComponent} from "./add-row/BlankRowComponent";
+import {NormalRowComponent} from "./add-row/NormalRowComponent";
 import {RowStyle} from "./domain/RowStyle";
 import {StyleDto} from "./domain/StyleDto";
 import {forEach} from "@angular/router/src/utils/collection";
