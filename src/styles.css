@@ -3,3 +3,36 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+ul li{
+  list-style-type: none;
+}
+.bbl-wrap {
+  position: relative;
+
+}
+.bbl-right-col{
+  width: 20%;
+  height: 600px;
+  border: solid 1px #9aa5a5;
+}
+.bbl-left-col {
+  position: absolute;
+  left: 20%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  border: solid 1px #9aa5a5;
+}
+.bbl-list-btn {
+  display: block;
+  margin: 20px 30px;
+  padding: 5px;
+  border-radius: 10%;
+  text-align: center;
+}
+.bbl-list-title {
+  height: 40px;
+  text-align: center;
+  margin:auto 0;
+  border-bottom: dotted 1px #9aa5a5;
+}

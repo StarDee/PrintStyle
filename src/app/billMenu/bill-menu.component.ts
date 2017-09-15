@@ -5,11 +5,14 @@ import {
 @Component({
   selector: 'bill-menu',
   template: `
-    <div style="width: 20%;height:100%;border: 2px solid #333">
-      <div style="border: solid 1px #333;height: 80px">
-        <button>静态字符</button>
+    <div>
+      
+      <div class="bbl-list-title">单据列表</div>
+      
+      <div>
+          <li class="btn-primary bbl-list-btn">结账单</li>
+          <li class="btn-primary bbl-list-btn">交班单</li>
       </div>
-      <div></div>
     </div>
   `
 })
