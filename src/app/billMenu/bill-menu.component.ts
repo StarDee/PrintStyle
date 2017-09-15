@@ -5,10 +5,12 @@ import {
 @Component({
   selector: 'bill-menu',
   template: `
-    <button (click)="createComponent('blank')">建空行</button>
-    <button (click)="createComponent('normal')">建普通行</button>
-    <button (click)="reCover()">恢复数据</button>
-    <ng-template #rowContainer></ng-template>
+    <div style="width: 20%;height:100%;border: 2px solid #333">
+      <div style="border: solid 1px #333;height: 80px">
+        <button>静态字符</button>
+      </div>
+      <div></div>
+    </div>
   `
 })
 
